@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Samsung" name="medrecapp.Services.JaminanServiceTest" skipped="0" tests="4" time="1.932" timestamp="2014-01-20T05:40:32">
+<testsuite errors="0" failures="0" hostname="Samsung" name="medrecapp.Services.JaminanServiceTest" skipped="0" tests="4" time="1.609" timestamp="2014-01-20T05:41:09">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
-    <property name="ant.file.MedRecApp-impl" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\nbproject\build-impl.xml" />
+    <property name="ant.file.MedRecApp-impl" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\nbproject\build-impl.xml" />
     <property name="javac.source" value="1.5" />
     <property name="java.home" value="c:\Program Files\Java\jdk1.7.0_45\jre" />
     <property name="do.archive+manifest.available+main.class" value="true" />
     <property name="test.src.dir" value="test" />
     <property name="javadoc.version" value="false" />
-    <property name="libs.CopyLibs.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
-    <property name="libraries.path" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\nblibraries.properties" />
+    <property name="libs.CopyLibs.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libraries.path" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\nblibraries.properties" />
     <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
-    <property name="libs.MySQLDriver.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.MySQLDriver.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar" />
     <property name="src.dir" value="src" />
     <property name="debug-args-line" value="-Xdebug" />
     <property name="build.sysclasspath" value="ignore" />
@@ -24,7 +24,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.version" value="1.7.0_45" />
     <property name="javac.debug" value="true" />
-    <property name="run.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes" />
+    <property name="run.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="annotation.processing.run.all.processors" value="true" />
@@ -32,7 +32,7 @@
     <property name="mysqladmin" value="C:\xampp\mysql\bin\mysqladmin.exe" />
     <property name="user.name" value="Hernawati Susanti S" />
     <property name="manifest.available+main.class+mkdist.available" value="true" />
-    <property name="empty.dir" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\empty" />
+    <property name="empty.dir" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\empty" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="ant.file.type.MedRecApp" value="file" />
     <property name="sql.pass" value="" />
@@ -44,7 +44,7 @@
     <property name="javadoc.author" value="false" />
     <property name="user.timezone" value="" />
     <property name="manifest.available" value="true" />
-    <property name="libs.junit.javadoc" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit/junit-3.8.2-api.zip" />
+    <property name="libs.junit.javadoc" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit/junit-3.8.2-api.zip" />
     <property name="user.script" value="" />
     <property name="path.separator" value=";" />
     <property name="version-output" value="java version &quot;1.7" />
@@ -53,11 +53,11 @@
     <property name="file.encoding" value="Cp1252" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecapp.Services.JaminanServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\test\results\TEST-medrecapp.Services.JaminanServiceTest.xml crashfile=F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\junitvmwatcher622836735554158604.properties propsfile=F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\junit2060043729599326603.properties" />
-    <property name="built-jar.properties" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\built-jar.properties" />
-    <property name="ant.file" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build.xml" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner medrecapp.Services.JaminanServiceTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\test\results\TEST-medrecapp.Services.JaminanServiceTest.xml crashfile=f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\junitvmwatcher8733184910335765577.properties propsfile=f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\junit4645608159152412853.properties" />
+    <property name="built-jar.properties" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\built-jar.properties" />
+    <property name="ant.file" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build.xml" />
     <property name="file.reference.fest-assert-1.2.jar" value="lib\fest-swing-1.2\fest-assert-1.2.jar" />
-    <property name="libs.junit_4.src" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5-src.jar" />
+    <property name="libs.junit_4.src" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5-src.jar" />
     <property name="do.jar" value="true" />
     <property name="java.io.tmpdir" value="C:\Users\HERNAW~1\AppData\Local\Temp\" />
     <property name="build.test.results.dir" value="build/test/results" />
@@ -78,7 +78,7 @@
     <property name="file.reference.fest-util-1.1.2.jar" value="lib\fest-swing-1.2\fest-util-1.1.2.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="ap.cmd.line.internal" value="" />
-    <property name="libs.junit_4.javadoc" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5-api.zip" />
+    <property name="libs.junit_4.javadoc" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5-api.zip" />
     <property name="endorsed.classpath" value="" />
     <property name="do.mkdist" value="true" />
     <property name="javadoc.encoding" value="UTF-8" />
@@ -89,28 +89,28 @@
     <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
     <property name="javadoc.nonavbar" value="false" />
     <property name="user.properties.file" value="C:\Users\asus\.netbeans\6.9\build.properties" />
-    <property name="ant.file.MedRecApp" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build.xml" />
+    <property name="ant.file.MedRecApp" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build.xml" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="sql.driver" value="com.mysql.jdbc.Driver" />
     <property name="build.generated.dir" value="build/generated" />
     <property name="os.name" value="Windows 8" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="run.test.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
+    <property name="run.test.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="libs.junit.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit/junit-3.8.2.jar" />
+    <property name="libs.junit.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit/junit-3.8.2.jar" />
     <property name="java.library.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Users\Hernawati Susanti S\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\windows\system32;c:\windows;c:\windows\System32\Wbem;c:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files\Samsung\AllShare Framework DMS\1.3.14\;c:\Program Files\Samsung\AllShare Framework DMS\1.3.14\64bit\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;f:\xampp\php;c:\Program Files\Java\jdk1.7.0_45\bin;f:\ant\bin;c:\Program Files\Java\jre7\bin;c:\Program Files (x86)\Java\jre7\bin;c:\Program Files (x86)\Java\jdk1.6.0_21\bin;c:\Program Files\TortoiseGit\bin;." />
     <property name="do.archive+manifest.available+main.class+mkdist.available" value="true" />
     <property name="ant.java.version" value="1.7" />
-    <property name="basedir" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan" />
+    <property name="basedir" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien" />
     <property name="javadoc.noindex" value="false" />
     <property name="java.class.version" value="51.0" />
-    <property name="javac.test.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
-    <property name="javac.processorpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar" />
+    <property name="javac.test.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
+    <property name="javac.processorpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar" />
     <property name="ant.home" value="f:/ant" />
     <property name="javadoc.splitindex" value="true" />
-    <property name="javac.test.processorpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
+    <property name="javac.test.processorpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar" />
     <property name="javadoc.preview" value="true" />
-    <property name="libs.junit_4.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5.jar" />
+    <property name="libs.junit_4.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5.jar" />
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\bin" />
     <property name="build.dir" value="build" />
     <property name="application.title" value="MedRecApp" />
@@ -118,7 +118,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="user.variant" value="" />
     <property name="javadoc.encoding.used" value="UTF-8" />
-    <property name="libraries.dir.nativedirsep" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib" />
+    <property name="libraries.dir.nativedirsep" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib" />
     <property name="javadoc.windowtitle" value="" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
@@ -126,7 +126,7 @@
     <property name="file.reference.jcalendar-1.4.jar" value="lib/jcalendar-1.4.jar" />
     <property name="ant.project.name" value="MedRecApp" />
     <property name="java.vm.specification.version" value="1.7" />
-    <property name="work.dir" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan" />
+    <property name="work.dir" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="javadoc.use" value="true" />
     <property name="sun.cpu.isalist" value="amd64" />
@@ -136,7 +136,7 @@
     <property name="user.home" value="C:\Users\Hernawati Susanti S" />
     <property name="libraries.basename" value="nblibraries" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
-    <property name="user.dir" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan" />
+    <property name="user.dir" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien" />
     <property name="debug-transport" value="dt_shmem" />
     <property name="application.args" value="" />
     <property name="sun.cpu.endian" value="little" />
@@ -144,17 +144,17 @@
     <property name="mysql.dbname" value="medrec" />
     <property name="endorsed.classpath.cmd.line.arg" value="" />
     <property name="jar.index" value="false" />
-    <property name="libraries.dir" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib" />
+    <property name="libraries.dir" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib" />
     <property name="java.vm.version" value="24.45-b08" />
     <property name="annotation.processing.processor.options" value="" />
-    <property name="java.class.path" value="F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\jcalendar-1.4.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\classes;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\junit-4.11.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\junit_4\junit-4.5.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\fest-swing-1.2\fest-swing-1.2.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\fest-swing-1.2\fest-assert-1.2.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\fest-swing-1.2\fest-reflect-1.2.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\lib\fest-swing-1.2\fest-util-1.1.2.jar;F:\TA\ci\git\Pembagian commit\2. Herna\2. Spesialis, Jaminan\build\test\classes;F:\ant\lib\ant-launcher.jar;f:\ant\lib\ant.jar;f:\ant\lib\ant-junit.jar;f:\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\jcalendar-1.4.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\classes;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\junit-4.11.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\junit_4\junit-4.5.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\fest-swing-1.2\fest-swing-1.2.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\fest-swing-1.2\fest-assert-1.2.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\fest-swing-1.2\fest-reflect-1.2.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\lib\fest-swing-1.2\fest-util-1.1.2.jar;f:\TA\ci\git\Pembagian commit\2. Herna\5. Spesialis, Jaminan, Staf, Obat, Pasien\build\test\classes;F:\ant\lib\ant-launcher.jar;f:\ant\lib\ant.jar;f:\ant\lib\ant-junit.jar;f:\ant\lib\ant-junit4.jar" />
     <property name="jdbc.jar" value="lib\MySQLDriver\mysql-connector-java-5.1.6-bin.jar" />
     <property name="ant.library.dir" value="f:/ant/lib" />
     <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="dist.dir" value="dist" />
-    <property name="debug.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes" />
+    <property name="debug.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="annotation.processing.enabled.in.editor" value="false" />
     <property name="ant.core.lib" value="f:\ant\lib\ant.jar" />
@@ -163,18 +163,18 @@
     <property name="file.separator" value="\" />
     <property name="java.runtime.version" value="1.7.0_45-b18" />
     <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_45\jre\classes" />
-    <property name="debug.test.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
+    <property name="debug.test.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar:build/classes:lib\junit-4.11.jar:f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/junit_4/junit-4.5.jar:lib\fest-swing-1.2\fest-swing-1.2.jar:lib\fest-swing-1.2\fest-assert-1.2.jar:lib\fest-swing-1.2\fest-reflect-1.2.jar:lib\fest-swing-1.2\fest-util-1.1.2.jar:build/test/classes" />
     <property name="have.tests" value="true" />
     <property name="main.class" value="medrecapp.Main" />
     <property name="sql.url" value="jdbc:mysql://localhost:3306/medrec" />
-    <property name="libs.FEST.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/fest-swing-1.2/fest-swing-1.2.jar" />
+    <property name="libs.FEST.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/fest-swing-1.2/fest-swing-1.2.jar" />
     <property name="user.country" value="US" />
     <property name="javadoc.notree" value="false" />
     <property name="file.reference.fest-reflect-1.2.jar" value="lib\fest-swing-1.2\fest-reflect-1.2.jar" />
     <property name="ant.file.type.MedRecApp-impl" value="file" />
     <property name="javadoc.additionalparam" value="" />
     <property name="default.javac.target" value="1.4" />
-    <property name="javac.classpath" value="F:/TA/ci/git/Pembagian commit/2. Herna/2. Spesialis, Jaminan/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar" />
+    <property name="javac.classpath" value="f:/TA/ci/git/Pembagian commit/2. Herna/5. Spesialis, Jaminan, Staf, Obat, Pasien/lib/MySQLDriver/mysql-connector-java-5.1.6-bin.jar:lib/jcalendar-1.4.jar" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="do.archive+manifest.available" value="true" />
     <property name="javac.target" value="1.5" />
@@ -183,9 +183,9 @@
     <property name="java.specification.version" value="1.7" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="medrecapp.Services.JaminanServiceTest" name="a_insertJaminan" time="1.333" />
-  <testcase classname="medrecapp.Services.JaminanServiceTest" name="b_updateJaminan" time="0.098" />
-  <testcase classname="medrecapp.Services.JaminanServiceTest" name="c_deleteJaminan" time="0.073" />
+  <testcase classname="medrecapp.Services.JaminanServiceTest" name="a_insertJaminan" time="1.187" />
+  <testcase classname="medrecapp.Services.JaminanServiceTest" name="b_updateJaminan" time="0.011" />
+  <testcase classname="medrecapp.Services.JaminanServiceTest" name="c_deleteJaminan" time="0.017" />
   <testcase classname="medrecapp.Services.JaminanServiceTest" name="d_getAllJaminan" time="0.003" />
   <system-out><![CDATA[1. serviceInsertJaminan
 2. serviceUpdateJaminan
